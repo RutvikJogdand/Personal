@@ -70,7 +70,7 @@
       background-image: url("https://c0.wallpaperflare.com/preview/265/904/836/iguana-reptile-lizard-chameleon.jpg");
       background-size: cover;
       color: white;
-      
+      background-position: center;
       
     }
     
@@ -79,6 +79,7 @@
       grid-area: C;
       background-image: url("https://images.unsplash.com/photo-1477764085876-1df3917e052f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80");
         background-size: cover;
+        background-position: center;
     }
     
     #d
@@ -86,6 +87,7 @@
       grid-area: D;
       background-image: url("https://sf.co.ua/15/02/wallpaper-1d848b.jpg");
       background-size: cover;
+      background-position: center;
     }
     
     #e
@@ -93,6 +95,7 @@
       grid-area: E;
       background-image: url("https://images.unsplash.com/photo-1571391733814-15ac29ac3544?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80");
       background-size: cover;
+      background-position: center;
     }
     
     #d, #e
@@ -202,7 +205,7 @@
 
 
 
-    @media (min-width: 851px) and (max-width: 1300px){
+    @media (min-width: 851px) and (max-width: 1250px){
                                 #Grid1{
                                
                               grid-template: "A A A"
